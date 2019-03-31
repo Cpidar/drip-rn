@@ -9,7 +9,6 @@ import cycleModule from '../lib/cycle'
 let isMensesStart
 let getMensesDaysRightAfter
 
-
 const db = await RxDB.create({
   name: 'cycledb',
   adapter: 'idb',
